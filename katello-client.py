@@ -6,7 +6,7 @@ try:
     import logging
     import os
     import socket
-    import argparse # import OptionParser, OptionGroup
+    import argparse
     import requests
     import yum
     import random
@@ -78,9 +78,6 @@ class get_config():
 
     def __init__(self):
        pass
-       # self.server = ''
-       # self.org = ''
-       # self.activationkey = ''
 
     def get_katello_server(self, options):
         if options.server:
